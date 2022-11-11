@@ -3,6 +3,6 @@ function randPic() {
     let images = ["p1.jpg","p2.jpg","p3.jpg"];
     const rndInt = Math.floor(Math.random() * images.length);
     var fileName = images[rndInt];
-    x = "<img src=\"/images/" + fileName + "\" width=\"600\" height=\"400\">";
+    x = "<img src=\"images/" + fileName + "\" width=\"600\" height=\"400\">";
     document.getElementById("img").innerHTML = x;
 }
